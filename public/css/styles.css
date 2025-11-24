@@ -192,7 +192,7 @@ nav a {
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768.99px) {
     body {
         background: linear-gradient(180deg, #E1F5FE 0%, #fff 100%);
         padding: 20px;
@@ -206,8 +206,15 @@ nav a {
 
     nav ul {
         display: flex;
-        justify-content: space-around;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        
         margin-bottom: 20px;
+        padding: 0 10px; 
+    }
+
+    nav li { 
+        margin: 5px; 
     }
 
     nav a {
@@ -216,6 +223,7 @@ nav a {
         padding: 10px 15px;
         border-radius: 22px;
         font-weight: bold;
+        display: block; 
     }
 
     main {
@@ -251,6 +259,7 @@ nav a {
         color: #0288D1;
     }
 }
+
 @media (min-width: 769px) {
     body {
         background-color: #f3e5f5;
