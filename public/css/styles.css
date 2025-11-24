@@ -1,3 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: block; 
+}
+
+
 @media (min-width: 321px) and (max-width: 480px) {
     body {
         background-color: #f4f4f4;
