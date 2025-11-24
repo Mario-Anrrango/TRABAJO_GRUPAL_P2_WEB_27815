@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Semántica con Media Queries</title>
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mi Sitio Web</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SERVICIOS</a></li>
+            <li><a href="#">ACERCA DE NOSOTROS</a></li>
+            <li><a href="#">CONTACTENOS</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contenido">
+            <h2>¡Te damos la bienvenida a nuestra página!</h2>
+            <p>En esta página vamos a mostrarles como se puede llegar a modificar tanto el tamaño, color, estructura y tipografía de la letra
+                cuando se refiere a diferentes tipos de pantallas (diferentes dispositivos tecnológicos). Como finalidad poder enseñarle la diversidad
+                de estilos que nos pueden ofrecer los diversos estilos existentes.</p>
+
+            <form action="server.html">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" placeholder="Ingrese sus nombres" pattern="[A-Za-z ]+" required>
+
+                <label for="opinion">Opinión:</label>
+                <textarea id="opinion" rows="6" placeholder="Escribe su opinión de la página..."></textarea>
+
+                <button type="submit">ENVIAR</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nuestro sitio web MKDC</p>
+    </footer>
+</body>
+
+</html>
